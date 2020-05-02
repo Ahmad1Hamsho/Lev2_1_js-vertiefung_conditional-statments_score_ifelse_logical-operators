@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+}
+label {
+  font-size: 2em;
+  font-weight: bolder;
+  color: white;
+}
+input {
+  height: 5vh;
+  width: 10vw;
+  margin: 3vh;
+  background-color: gray;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bolder;
+  text-align: center;
+  border: 2px solid red;
+}
+input::placeholder {
+  color: rgba(0, 0, 0, 0.623);
+}
+section {
+  font-size: 2em;
+  font-weight: bolder;
+  color: white;
+  position: relative;
+  bottom: 8vh;
+  left: 4vw;
+  text-align: center;
+}
+button {
+  font-size: 2em;
+  font-weight: bolder;
+  color: black;
+  border-radius: 20%;
+  margin: 50px;
+  border: none;
+  box-shadow: inset 4px 4px 20px rgb(212, 37, 37), 2px 0px 5px white;
+}
